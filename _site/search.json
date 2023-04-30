@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DAB402-003 Capstone Projects (Winter23)",
+    "section": "",
+    "text": "Capstone Projects  Data Analytics\n            Welcome to Winter 2023 Capstone Projects by the students of Data Analytics at St. Clair College, Windsor, Ontario. Scroll down to see student presentations and github links. \n        \n        \n        \n        \n    \n    \n        \n    \n\n\n\n\n\n\n    \n    \n      \n      \n      \n      \n      \n      \n      \n    \n\n    \n    \n      \n        \n      \n\n      \n        \n      \n\n      \n        \n      \n\n      \n        \n      \n\n      \n    \n\n    \n    \n      \n      Previous\n    \n    \n      \n      Next\n    \n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\nNote: The theme for this site was taken from Marvin Schmitt’s beautiful Quarto website. Thank you, Martin."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#presentations",
+    "href": "index.html#presentations",
+    "title": "dab402winter23",
+    "section": "Presentations",
+    "text": "Presentations\n\n{% for file in glob(’*.pdf’) %}\n\n&lt;a href=\"{{ file }}\"&gt;\n    &lt;img src=\"{{ file.stem }}.gif\" alt=\"{{ file.stem }}\" /&gt;\n    &lt;p&gt;{{ file.stem }}&lt;/p&gt;\n&lt;/a&gt;\n\n{% endfor %}"
+  }
+]
